@@ -123,9 +123,26 @@ def convert_to_graph(board, trains):
     board[first_city].add(second_city)
     board[second_city].add(first_city)
 
+def find_city(board, city1, city2):
+    if city2 in board[city1]:
+      return True
+    else:
+      return False
+  
 def find_path(board, first_city, second_city):
-  return True    # replace this line with your code
-
+    result = False
+    # this part need to be change into a
+    # recursion could not figure it out how to do it
+    cities = board[first_city]
+    for a in cities:
+      if a == second_city:
+        result = True
+      else:
+        cities = cities.remove(a)# cant do the remove one for recur purpose
+        find_path(board, a, second_city)
+    return result
+        
+    
 def calculate_score(board, tickets):
   score = 0
   for ticket in tickets:
@@ -135,8 +152,36 @@ def calculate_score(board, tickets):
       score = score - ticket[2]
   return score
 
+def print_board():
+  #print board with a format
+  print("Board:")
+  for city in board:
+    con = []
+    count = 1
+    for ct in board[city]:
+        if count < len(board[city]):
+            con.append("{}, ".format(ct))
+        else:
+            con.append("{}".format(ct))
+        count += 1
+    connections = ''.join(con)
+    print("{} connected to: {}".format(city, connections))
+    
+def print_ticket():
+  print("\nTickets:")
+  for cc in tickets:
+    string =[]
+    count = 1
+    string.append("{} connected to {}. Score: {}.".format(cc[0],cc[1],cc[2]))
+    ticket = ''.join(string)
+    print(ticket)
 # main
 
 convert_to_graph(board, trains)
+
+#print board and ticket
+print_board()
+print_ticket()
+
 score = calculate_score(board, tickets)
-print("The score is: {0}".format(score))
+print("\nThe score is: {0}".format(score))
