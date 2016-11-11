@@ -1,0 +1,74 @@
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:43:06) [MSC v.1600 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Board:
+Salt Lake City connected to: Helena, San Francisco, Denver, Las Vegas, Portland
+Phoenix connected to: El Paso, Los Angeles, Santa Fe
+Seattle connected to: Helena, Vancouver, Calgary, Portland
+Chicago connected to: Pittsburgh, Saint Louis, Duluth, Omaha, Toronto
+Charleston connected to: Atlanta, Miami, Raleigh
+Los Angeles connected to: Phoenix, San Francisco, El Paso
+Oklahoma City connected to: Kansas City, El Paso, Santa Fe, Dallas, Denver, Little Rock
+Toronto connected to: Pittsburgh, Chicago, Duluth, Montreal, Sault St Marie
+Boston connected to: New York, Montreal
+Washington connected to: New York, Pittsburgh, Raleigh
+Santa Fe connected to: Phoenix, Oklahoma City, El Paso, Denver
+Dallas connected to: Oklahoma City, El Paso, Houston, Little Rock
+Winnipeg connected to: Helena, Calgary, Duluth, Sault St Marie
+Vancouver connected to: Seattle, Calgary
+Pittsburgh connected to: Saint Louis, New York, Chicago, Washington, Toronto, Raleigh, Nashville
+Portland connected to: Salt Lake City, San Francisco, Seattle
+Helena connected to: Salt Lake City, Seattle, Duluth, Omaha, Calgary, Winnipeg, Denver
+San Francisco connected to: Salt Lake City, Los Angeles, Portland
+Saint Louis connected to: Nashville, Chicago, Pittsburgh, Little Rock, Kansas City
+New Orleans connected to: Houston, Atlanta, Miami, Little Rock
+Kansas City connected to: Oklahoma City, Saint Louis, Omaha
+Las Vegas connected to: Salt Lake City
+Nashville connected to: Saint Louis, Atlanta, Pittsburgh, Little Rock, Raleigh
+El Paso connected to: Oklahoma City, Santa Fe, Dallas, Phoenix, Houston, Los Angeles
+Duluth connected to: Helena, Chicago, Omaha, Toronto, Sault St Marie, Winnipeg
+Omaha connected to: Helena, Chicago, Denver, Kansas City, Duluth
+Sault St Marie connected to: Winnipeg, Duluth, Montreal, Toronto
+New York connected to: Boston, Pittsburgh, Montreal, Washington
+Atlanta connected to: New Orleans, Charleston, Miami, Raleigh, Nashville
+Calgary connected to: Helena, Winnipeg, Vancouver, Seattle
+Raleigh connected to: Charleston, Atlanta, Pittsburgh, Washington, Nashville
+Montreal connected to: Toronto, New York, Boston, Sault St Marie
+Houston connected to: New Orleans, El Paso, Dallas
+Denver connected to: Helena, Salt Lake City, Oklahoma City, Santa Fe, Omaha
+Little Rock connected to: Nashville, New Orleans, Oklahoma City, Saint Louis, Dallas
+Miami connected to: Charleston, New Orleans, Atlanta
+
+Tickets:
+Los Angeles connected to New York. Score: 21.
+Duluth connected to Houston. Score: 8.
+Sault St Marie connected to Nashville. Score: 8.
+New York connected to Atlanta. Score: 6.
+Portland connected to Nashville. Score: 17.
+Vancouver connected to Montreal. Score: 20.
+Duluth connected to El Paso. Score: 10.
+Toronto connected to Miami. Score: 10.
+Portland connected to Phoenix. Score: 11.
+Dallas connected to New York. Score: 11.
+Calgary connected to Salt Lake City. Score: 7.
+Calgary connected to Phoenix. Score: 13.
+Los Angeles connected to Miami. Score: 20.
+Winnipeg connected to Little Rock. Score: 11.
+San Francisco connected to Atlanta. Score: 17.
+Kansas City connected to Houston. Score: 5.
+Denver connected to Pittsburgh. Score: 11.
+Chicago connected to Santa Fe. Score: 9.
+Vancouver connected to Santa Fe. Score: 13.
+Boston connected to Miami. Score: 12.
+Chicago connected to New Orleans. Score: 7.
+Montreal connected to Atlanta. Score: 9.
+Denver connected to El Paso. Score: 4.
+Helena connected to Los Angeles. Score: 8.
+Winnipeg connected to Houston. Score: 12.
+Montreal connected to New Orleans. Score: 13.
+Sault St Marie connected to Oklahoma City. Score: 9.
+Seattle connected to Los Angeles. Score: 9.
+
+The score is: 311
+>>> 
